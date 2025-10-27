@@ -2,6 +2,8 @@
 
 ![Immagine di anteprima](https://github.com/user-attachments/assets/b1d5df3c-e1e2-493a-aee0-4491ce6ba234)
 
+![Correct Your Field Of Vision And The Feeling Of “False” Speed (Ready For Assetto Corsa Rally   RBR)](https://github.com/user-attachments/assets/63da8b24-5617-415c-9d8d-270a72745bc9)
+
 ## Calcola il FOV e gli Angoli per Schermi Tripli
 
 Calcola il corretto **Campo Visivo (Field of View - FOV)** e gli angoli per la configurazione a **schermo triplo** per tutti i giochi di Sim Racing, inclusi Assetto Corsa Rally, Assetto Corsa EVO, iRacing, Automobilista, rFactor, Le Mans Ultimate, DiRT Rally e Richard Burns Rally.
@@ -47,3 +49,4 @@ Questo ti aiuta a impostare l'angolo corretto tra i tuoi monitor per una visione
 ### Nota Finale
 
 Questi calcoli forniscono un forte **punto di partenza**. Sentiti libero di apportare piccole modifiche in base alle preferenze personali, ma cerca di rimanere vicino a questi valori per l'esperienza di guida più autentica.
+
