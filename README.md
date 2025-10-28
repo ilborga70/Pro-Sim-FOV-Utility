@@ -1,4 +1,5 @@
-# 🎯 PRO-SIM FOV UTILITY 🎯
+# <img width="2560" height="1074" alt="Pro-Sim FOV Utility" src="https://github.com/user-attachments/assets/7a438855-39b6-4a02-a700-2d3f7ab2cca4" />
+
 
 ## Calcola il FOV e gli Angoli per Schermi Tripli
 
@@ -45,3 +46,4 @@ Questo ti aiuta a impostare l'angolo corretto tra i tuoi monitor per una visione
 ### Nota Finale
 
 Questi calcoli forniscono un forte **punto di partenza**. Sentiti libero di apportare piccole modifiche in base alle preferenze personali, ma cerca di rimanere vicino a questi valori per l'esperienza di guida più autentica.
+
