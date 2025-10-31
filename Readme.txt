@@ -1,5 +1,52 @@
 # 🎯 PRO-SIM FOV UTILITY 🎯
 
+New Feature: Interactive visual diagram that shows in real-time the relationship between user position and screen.
+
+Features:
+
+👁️ FOV Visualization: Dashed lines showing the field of view angle
+
+🎯 Head Position: Representation of user's head that moves dynamically
+
+📏 Real-time Distance: Red dotted line indicating actual distance
+
+🖥️ Dynamic Screen: Screen width adapts to selected settings
+
+🔄 Instant Update: All changes are immediately reflected in the diagram
+
+Technical Capabilities:
+
+Support for single and triple screens
+
+Automatic adaptation to different aspect ratios
+
+Correct distance visualization (inverse compared to previous version)
+
+Curved screen handling
+
+🔧 Miglioramenti Tecnici / Technical Improvements
+Italiano
+Correzioni Implementate:
+
+✅ Mapping Distanza Corretto: La testa ora si avvicina visivamente allo schermo quando la distanza aumenta
+
+✅ Gestione Errori Robusta: Controlli aggiuntivi per prevenire errori di divisione
+
+✅ Performance Ottimizzate: Pulizia efficiente delle risorse grafiche
+
+✅ Conversione Tipi Esplicita: Eliminati errori op_Division con conversioni appropriate
+
+English
+Implemented Fixes:
+
+✅ Correct Distance Mapping: Head now visually approaches the screen when distance increases
+
+✅ Robust Error Handling: Additional checks to prevent division errors
+
+✅ Optimized Performance: Efficient cleanup of graphic resources
+
+✅ Explicit Type Conversion: Eliminated op_Division errors with proper conversions
+
 ## Calcola il FOV e gli Angoli per Schermi Tripli
 
 Calcola il corretto **Campo Visivo (Field of View - FOV)** e gli angoli per la configurazione a **schermo triplo** per tutti i giochi di Sim Racing, inclusi Assetto Corsa Rally, Assetto Corsa EVO, iRacing, Automobilista, rFactor, Le Mans Ultimate, DiRT Rally e Richard Burns Rally.
