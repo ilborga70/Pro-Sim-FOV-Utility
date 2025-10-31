@@ -1,3 +1,5 @@
+# <img width="2560" height="1449" alt="Pro-Sim FOV Utility v4 0 0" src="https://github.com/user-attachments/assets/04619802-178e-4086-a779-d4dd70aafc4b" />
+
 🚀 New Features
 
 English
@@ -97,10 +99,10 @@ Real-time feedback on changes
 
 Realistic visualization for professional racing setups
 
-*Ultimo aggiornamento / Last update: 2024*
-*Compatibile con / Compatible with: PowerShell 5.1+*
-*Supporta / Supports: Windows 10/11*
-Feature Highlight: Diagramma Dinamico Multi-Schermo Inclinato / Tilted Multi-Screen Dynamic Diagram
+*Last update: 2024*
+*Compatible with: PowerShell 5.1+*
+*Supports: Windows 10/11*
+Feature Highlight: Tilted Multi-Screen Dynamic Diagram
 
 Calculate FOV and Angles for Triple Screens
 Calculate the correct Field of View (FOV) and angles for triple screen configuration for all Sim Racing games, including Assetto Corsa Rally, Assetto Corsa EVO, iRacing, Automobilista, rFactor, Le Mans Ultimate, DiRT Rally, and Richard Burns Rally.
@@ -137,3 +139,4 @@ Final Note
 These calculations provide a strong starting point. Feel free to make small adjustments based on personal preferences, but try to stay close to these values for the most authentic driving experience.
 
 Note: This utility supports calculations for both single and triple screen setups, with special consideration for racing simulator configurations including tilted side screens.
+
