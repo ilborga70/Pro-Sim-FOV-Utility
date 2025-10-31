@@ -1,4 +1,5 @@
-# 🎯 PRO-SIM FOV UTILITY 🎯
+# <img width="2560" height="1449" alt="Pro-Sim FOV Utility v3 0 0" src="https://github.com/user-attachments/assets/0e815090-7674-48ee-9586-625ed66a64d4" />
+
 
 New Feature: Interactive visual diagram that shows in real-time the relationship between user position and screen.
 
@@ -92,3 +93,4 @@ Questo ti aiuta a impostare l'angolo corretto tra i tuoi monitor per una visione
 ### Nota Finale
 
 Questi calcoli forniscono un forte **punto di partenza**. Sentiti libero di apportare piccole modifiche in base alle preferenze personali, ma cerca di rimanere vicino a questi valori per l'esperienza di guida più autentica.
+
