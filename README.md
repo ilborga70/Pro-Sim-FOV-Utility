@@ -1,96 +1,139 @@
-# <img width="2560" height="1449" alt="Pro-Sim FOV Utility v3 0 0" src="https://github.com/user-attachments/assets/0e815090-7674-48ee-9586-625ed66a64d4" />
+🚀 New Features
 
-
-New Feature: Interactive visual diagram that shows in real-time the relationship between user position and screen.
+English
+New Feature: Advanced interactive visual diagram that shows in real-time the screen configuration and relationship with the user, with realistic representation of tilted and joined triple screens.
 
 Features:
 
 👁️ FOV Visualization: Dashed lines showing the field of view angle
 
-🎯 Head Position: Representation of user's head that moves dynamically
+🎯 Dynamic Head Position: Representation of head that moves based on distance
 
-📏 Real-time Distance: Red dotted line indicating actual distance
+📏 Real-time Distance: Red dotted line with actual distance label
 
-🖥️ Dynamic Screen: Screen width adapts to selected settings
+🖥️ Dynamic Multi-Configuration Screen:
+
+Single Screen: Single continuous line
+
+Triple Screens: Three joined screens with side screens tilted towards the user (racing simulator configuration)
 
 🔄 Instant Update: All changes are immediately reflected in the diagram
 
+📐 Bezel Integration: Spaces between triple screens represent bezel thickness
+
+🎮 Simulator Configuration: Side screens tilted at 30 degrees and joined to the center screen for realistic representation
+
 Technical Capabilities:
 
-Support for single and triple screens
+Visual support for single and triple screens
 
 Automatic adaptation to different aspect ratios
 
-Correct distance visualization (inverse compared to previous version)
+Correct distance visualization (inverted logic)
 
 Curved screen handling
 
-🔧 Miglioramenti Tecnici / Technical Improvements
-Italiano
-Correzioni Implementate:
+Proportional screen size calculations
 
-✅ Mapping Distanza Corretto: La testa ora si avvicina visivamente allo schermo quando la distanza aumenta
+Realistic representation of joined and tilted triple screens
 
-✅ Gestione Errori Robusta: Controlli aggiuntivi per prevenire errori di divisione
+Implemented Advanced Features:
 
-✅ Performance Ottimizzate: Pulizia efficiente delle risorse grafiche
+✅ Conditional Rendering: Diagram dynamically switches between single/triple screen
 
-✅ Conversione Tipi Esplicita: Eliminati errori op_Division con conversioni appropriate
+✅ Visual Bezels: Proportional spaces between triple screens
 
-English
-Implemented Fixes:
+✅ Proportional Calculations: Accurate screen sizes in diagram
 
-✅ Correct Distance Mapping: Head now visually approaches the screen when distance increases
+✅ Real-time Update: Immediate response to all controls
 
-✅ Robust Error Handling: Additional checks to prevent division errors
+✅ Efficient Resource Management: Automatic graphic memory cleanup
 
-✅ Optimized Performance: Efficient cleanup of graphic resources
+✅ Side Screens Tilt: Realistic 30-degree representation for simulators
 
-✅ Explicit Type Conversion: Eliminated op_Division errors with proper conversions
+✅ Screen Joining: Side screens perfectly joined to the center screen
 
-## Calcola il FOV e gli Angoli per Schermi Tripli
+Controls that Trigger Updates:
 
-Calcola il corretto **Campo Visivo (Field of View - FOV)** e gli angoli per la configurazione a **schermo triplo** per tutti i giochi di Sim Racing, inclusi Assetto Corsa Rally, Assetto Corsa EVO, iRacing, Automobilista, rFactor, Le Mans Ultimate, DiRT Rally e Richard Burns Rally.
+🔄 Screen type change (Single/Triple)
 
----
+🔄 Screen size modification
 
-## 🏎️ Come Calcolare il Campo Visivo
+🔄 Distance adjustment
 
-1.  **Inserisci le tue misurazioni:** Inserisci le misurazioni del tuo monitor e la distanza di visione.
-2.  **Rapporto d'aspetto:** Assicurati di conoscere il **rapporto d'aspetto** del tuo schermo (questo fa davvero una grande differenza!).
+🔄 Bezel thickness change
 
----
+🔄 Aspect ratio switch
 
-## 🎯 Comprendere il Risultato del FOV
+🔄 Curved screen toggle
 
-Dopo aver inserito le misurazioni del monitor e la posizione di seduta, vedrai un elenco di valori **FOV (Field of View)** per vari giochi di sim racing.
+Diagram Elements:
 
-Questi numeri rappresentano l'angolo di visione ottimale per la tua configurazione, aiutando a creare un'esperienza di guida più **immersiva e realistica**. Un FOV impostato correttamente assicura che gli oggetti nel gioco appaiano con le dimensioni e la distanza corrette rispetto alla tua prospettiva nel mondo reale.
+🔵 User Head: Oval representing user position
 
-### Benefici
+🔷 Screen Line: Blue lines representing the screens (single or triple)
 
-Ciò può migliorare significativamente la tua **consapevolezza spaziale** in pista, consentendo una migliore valutazione delle curve, dei punti di frenata e delle opportunità di sorpasso.
+📐 FOV Lines: Yellow dashed lines showing field of view angle
 
-### FOV Orizzontale vs. Verticale
+🔴 Distance Line: Red dotted line showing distance
 
-* Per la maggior parte dei simulatori, verrà visualizzato un valore **FOV orizzontale (hFOV)**. Questo è l'angolo di visione laterale ed è in genere il valore che dovrai inserire nelle impostazioni di gioco.
-* Alcuni giochi, come **Assetto Corsa Rally**, utilizzano invece il **FOV verticale (vFOV)**, che rappresenta l'angolo dall'alto verso il basso.
+📝 Label: Text indicating distance value
 
-### Adattamento e Prestazioni
+Realistic Setup:
 
-Ricorda, sebbene un FOV corretto possa inizialmente sembrare insolito se sei abituato a un'impostazione più ampia e irrealistica, concediti il tempo di adattarti. Molti Sim Racers riportano maggiore **coerenza e tempi sul giro più rapidi** dopo essersi abituati a un FOV calcolato correttamente.
+🎯 Optimal Angling: Side screens tilted at 30° towards the user
 
-> Un FOV corretto significa tempi sul giro migliori!
+🔗 Visual Continuity: Perfect transition between center and side screens
 
----
+👁️ Extended Field of View: FOV lines following screen inclination
 
-## 🖥️ Configurazione a Schermo Triplo
+📊 Accurate Proportions: Real sizes maintained in diagram
 
-Se hai una configurazione a schermo triplo, presta attenzione al valore **"Triple Screen" "Horizontal FOV"** nei risultati del calcolatore.
+Benefits:
 
-Questo ti aiuta a impostare l'angolo corretto tra i tuoi monitor per una visione senza interruzioni su tutti e tre gli schermi.
+Immediate visual representation of setup
 
-### Nota Finale
+Real-time feedback on changes
 
-Questi calcoli forniscono un forte **punto di partenza**. Sentiti libero di apportare piccole modifiche in base alle preferenze personali, ma cerca di rimanere vicino a questi valori per l'esperienza di guida più autentica.
+Realistic visualization for professional racing setups
 
+*Ultimo aggiornamento / Last update: 2024*
+*Compatibile con / Compatible with: PowerShell 5.1+*
+*Supporta / Supports: Windows 10/11*
+Feature Highlight: Diagramma Dinamico Multi-Schermo Inclinato / Tilted Multi-Screen Dynamic Diagram
+
+Calculate FOV and Angles for Triple Screens
+Calculate the correct Field of View (FOV) and angles for triple screen configuration for all Sim Racing games, including Assetto Corsa Rally, Assetto Corsa EVO, iRacing, Automobilista, rFactor, Le Mans Ultimate, DiRT Rally, and Richard Burns Rally.
+
+🏎️ How to Calculate Field of View
+Enter your measurements: Input your monitor measurements and viewing distance.
+
+Aspect Ratio: Make sure you know your screen's aspect ratio (this really makes a big difference!).
+
+🎯 Understanding the FOV Result
+After entering your monitor measurements and seating position, you'll see a list of FOV (Field of View) values for various sim racing games.
+
+These numbers represent the optimal viewing angle for your configuration, helping to create a more immersive and realistic driving experience. A properly set FOV ensures that objects in the game appear with the correct size and distance relative to your real-world perspective.
+
+Benefits
+This can significantly improve your spatial awareness on track, allowing for better judgment of corners, braking points, and overtaking opportunities.
+
+Horizontal vs. Vertical FOV
+For most simulators, you'll see a Horizontal FOV (hFOV) value. This is the side-to-side viewing angle and is typically the value you'll need to enter in the game settings.
+
+Some games, like Assetto Corsa Rally, use Vertical FOV (vFOV) instead, which represents the top-to-bottom angle.
+
+Adaptation and Performance
+Remember, while a correct FOV might initially feel unusual if you're used to a wider, unrealistic setting, give yourself time to adapt. Many Sim Racers report greater consistency and faster lap times after getting accustomed to a properly calculated FOV.
+
+Correct FOV means better lap times!
+
+🖥️ Triple Screen Configuration
+If you have a triple screen setup, pay attention to the "Triple Screen Horizontal FOV" value in the calculator results.
+
+This helps you set the correct angle between your monitors for seamless viewing across all three screens.
+
+Final Note
+These calculations provide a strong starting point. Feel free to make small adjustments based on personal preferences, but try to stay close to these values for the most authentic driving experience.
+
+Note: This utility supports calculations for both single and triple screen setups, with special consideration for racing simulator configurations including tilted side screens.
