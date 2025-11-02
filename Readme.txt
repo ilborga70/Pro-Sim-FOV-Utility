@@ -1,9 +1,16 @@
-🚀 New Features
+## ⚙️ Features & Fixes
 
-English
-New Feature: Advanced interactive visual diagram that shows in real-time the screen configuration and relationship with the user, with realistic representation of tilted and joined triple screens.
+### 🚀 Dynamic Preview Refinements
 
-Features:
+This update focuses on cleaning up the dynamic FOV preview diagram, improving readability, and fixing a synchronization bug.
+
+#### 🆕 New Features: Cleaner Diagram and Live Conversions
+* **Distance in Inches (Live Conversion):** The distance measurement line now displays the value in **inches** ('') instead of centimeters (cm). This provides a real-time conversion from the main input slider and declutters the chart while offering immediate utility.
+* **Central Text Removal:** All angle and mode labels have been removed from the crowded center of the dynamic diagram to prevent overlapping when the virtual pilot's head is close to the screen(s).
+* **Left-Aligned Label Column:** All essential metadata (Triple Screen Angle, Bezel, Curve Radius, Screen Mode) has been moved to a new, clean column in the **top-left corner** of the diagram, ensuring readability regardless of the FOV settings.
+
+#### 🐛 Bug Fixes
+* **Triple Screen Angle Synchronization Fix:** Resolved a critical bug where toggling input options (like "Curved Screen," "Screens," "Distance," or "Bezel") could cause the dynamic diagram to display an outdated or inverted Triple Screen Angle value. The calculation (`Calculate-FOV`) now runs reliably **before** the drawing routine (`Update-PreviewDiagram`) to ensure the preview always reflects the current settings.
 
 👁️ FOV Visualization: Dashed lines showing the field of view angle
 

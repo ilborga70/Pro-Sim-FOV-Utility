@@ -1,11 +1,16 @@
-# <img width="2560" height="1449" alt="Pro-Sim FOV Utility v4 0 0" src="https://github.com/user-attachments/assets/04619802-178e-4086-a779-d4dd70aafc4b" />
+## ⚙️ Features & Fixes
 
-🚀 New Features
+### 🚀 Dynamic Preview Refinements
 
-English
-New Feature: Advanced interactive visual diagram that shows in real-time the screen configuration and relationship with the user, with realistic representation of tilted and joined triple screens.
+This update focuses on cleaning up the dynamic FOV preview diagram, improving readability, and fixing a synchronization bug.
 
-Features:
+#### 🆕 New Features: Cleaner Diagram and Live Conversions
+* **Distance in Inches (Live Conversion):** The distance measurement line now displays the value in **inches** ('') instead of centimeters (cm). This provides a real-time conversion from the main input slider and declutters the chart while offering immediate utility.
+* **Central Text Removal:** All angle and mode labels have been removed from the crowded center of the dynamic diagram to prevent overlapping when the virtual pilot's head is close to the screen(s).
+* **Left-Aligned Label Column:** All essential metadata (Triple Screen Angle, Bezel, Curve Radius, Screen Mode) has been moved to a new, clean column in the **top-left corner** of the diagram, ensuring readability regardless of the FOV settings.
+
+#### 🐛 Bug Fixes
+* **Triple Screen Angle Synchronization Fix:** Resolved a critical bug where toggling input options (like "Curved Screen," "Screens," "Distance," or "Bezel") could cause the dynamic diagram to display an outdated or inverted Triple Screen Angle value. The calculation (`Calculate-FOV`) now runs reliably **before** the drawing routine (`Update-PreviewDiagram`) to ensure the preview always reflects the current settings.
 
 👁️ FOV Visualization: Dashed lines showing the field of view angle
 
@@ -99,10 +104,10 @@ Real-time feedback on changes
 
 Realistic visualization for professional racing setups
 
-*Last update: 2024*
-*Compatible with: PowerShell 5.1+*
-*Supports: Windows 10/11*
-Feature Highlight: Tilted Multi-Screen Dynamic Diagram
+*Ultimo aggiornamento / Last update: 2024*
+*Compatibile con / Compatible with: PowerShell 5.1+*
+*Supporta / Supports: Windows 10/11*
+Feature Highlight: Diagramma Dinamico Multi-Schermo Inclinato / Tilted Multi-Screen Dynamic Diagram
 
 Calculate FOV and Angles for Triple Screens
 Calculate the correct Field of View (FOV) and angles for triple screen configuration for all Sim Racing games, including Assetto Corsa Rally, Assetto Corsa EVO, iRacing, Automobilista, rFactor, Le Mans Ultimate, DiRT Rally, and Richard Burns Rally.
@@ -139,4 +144,3 @@ Final Note
 These calculations provide a strong starting point. Feel free to make small adjustments based on personal preferences, but try to stay close to these values for the most authentic driving experience.
 
 Note: This utility supports calculations for both single and triple screen setups, with special consideration for racing simulator configurations including tilted side screens.
-
