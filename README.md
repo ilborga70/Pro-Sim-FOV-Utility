@@ -1,7 +1,56 @@
-## <img width="2560" height="1449" alt="Pro-Sim FOV Utility v5 0 0" src="https://github.com/user-attachments/assets/6e8f7a03-46f0-4142-92cc-4bb4c40f256f" />
-
-
 ## ⚙️ Features & Fixes
+
+## Screenshot Feature - Text Results with Custom Background
+## Overview
+Enhanced screenshot functionality that generates professional 1280x720 images containing only FOV calculation results overlaid on a custom car background.
+
+## Features
+🖼️ Custom Background Support
+Template Integration: Automatically loads img\cockpit_template.png as background
+
+Car Styling: Displays FOV results over custom car imagery
+
+Image Requirements: 1280x720 PNG format recommended
+
+## 📊 Comprehensive Data Display
+Two-Column Layout: Clean separation of input parameters and calculated results
+
+Input Parameters: Screen size, ratio, distance, bezel, curvature settings
+
+FOV Results: Complete calculation outputs for all supported racing sims
+
+Unit Conversion: Automatic cm to inches conversion for distance
+
+## 🎨 Professional Styling
+Semi-Transparent Background: Dark overlay ensures text readability
+
+Consistent Theme: Matches application color scheme (blue/cyan accents)
+
+Decorative Border: Professional framing with application branding colors
+
+## Usage
+Click "Save Image Report" button
+
+System automatically:
+
+Loads custom background template
+
+Renders all FOV data in organized layout
+
+Applies professional styling and transparency
+
+Saves as 1280x720 PNG with custom filename
+
+## Output
+Filename: FOV_Results.png (customizable)
+
+Dimensions: 1280×720 pixels
+
+Content: Text-only FOV calculations over custom car background
+
+Format: PNG with transparency support
+
+Perfect for sharing setup details with clean, branded presentation that maintains your custom automotive styling.
 
 ### 🚀 Dynamic Preview Refinements
 
@@ -147,4 +196,3 @@ Final Note
 These calculations provide a strong starting point. Feel free to make small adjustments based on personal preferences, but try to stay close to these values for the most authentic driving experience.
 
 Note: This utility supports calculations for both single and triple screen setups, with special consideration for racing simulator configurations including tilted side screens.
-
