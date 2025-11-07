@@ -1,7 +1,27 @@
-## ⚙️ Features & Fixes
+## ✨ New Features: Profile Management
+To improve usability and configuration speed, profile management has been implemented. Users can now save and load different setup configurations (e.g., "Desk Rig", "Main Sim Rig") without having to re-enter all data manually.
+
+## 💾 Save Profile
+The "Save Profile" button has been added.
+
+When pressed, the application opens a SaveFileDialog window.
+
+The current configuration is serialized into a PSCustomObject and saved to a .json file chosen by the user.
+
+## 📂 Load Profile
+The "Load Profile" button has been added.
+
+It allows the user to select a .json file via an OpenFileDialog.
+
+The application reads the file, deserializes it, and automatically repopulates all controls (sliders, checkboxes, comboboxes) with the saved values.
+
+After loading, a recalculation (Calculate-FOV) and a diagram update (Update-PreviewDiagram) are immediately performed to reflect the loaded profile.
+
+## 🎨 UI Changes
+The three action buttons ("Load Profile", "Save Profile", "Save Image Report") are now aligned at the bottom of the window for quick and organized access.
 
 ## Screenshot Feature - Text Results with Custom Background
-## Overview
+Overview
 Enhanced screenshot functionality that generates professional 1280x720 images containing only FOV calculation results overlaid on a custom car background.
 
 ## Features
