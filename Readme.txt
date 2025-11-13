@@ -1,3 +1,6 @@
+## What's Changed
+* `fix(calc)`: Corrected the FOV calculation for Assetto Corsa Rally to use Horizontal FOV (hFOV) instead of Vertical FOV (vFOV). The value now aligns with other hFOV-based titles like AMS2 and iRacing.
+
 ## ✨ New Features: Profile Management
 To improve usability and configuration speed, profile management has been implemented. Users can now save and load different setup configurations (e.g., "Desk Rig", "Main Sim Rig") without having to re-enter all data manually.
 
