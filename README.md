@@ -3,6 +3,8 @@
 
 ## <img width="2540" height="1426" alt="Pro-Sim FOV Utility v8 0 0 0" src="https://github.com/user-attachments/assets/233d5b24-b8ad-45dc-a282-bd409da977e1" />
 
+<a href="https://youtube.com/shorts/4EMFu5LgZe8?si=GXFyHLvqX8ve4zpp" target="_blank"> PRO-SIM FOV UTILITY Fix the “False” Feeling of Speed Assetto Corsa Rally and RBR </a>
+
 ## ✨ New Features: Profile Management
 To improve usability and configuration speed, profile management has been implemented. Users can now save and load different setup configurations (e.g., "Desk Rig", "Main Sim Rig") without having to re-enter all data manually.
 
@@ -221,4 +223,5 @@ Final Note
 These calculations provide a strong starting point. Feel free to make small adjustments based on personal preferences, but try to stay close to these values for the most authentic driving experience.
 
 Note: This utility supports calculations for both single and triple screen setups, with special consideration for racing simulator configurations including tilted side screens.
+
 
