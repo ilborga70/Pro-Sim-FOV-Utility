@@ -1,255 +1,93 @@
-## What's Changed
-* `fix(calc)`: Corrected the FOV calculation for Assetto Corsa Rally to use Horizontal FOV (hFOV) instead of Vertical FOV (vFOV). The value now aligns with other hFOV-based titles like AMS2 and iRacing.
+# Pro-Sim FOV Utility
 
-## <img width="2540" height="1426" alt="Pro-Sim FOV Utility v8 0 0 0" src="https://github.com/user-attachments/assets/233d5b24-b8ad-45dc-a282-bd409da977e1" />
+![Pro-Sim FOV Utility v8 0 0 0](https://github.com/user-attachments/assets/233d5b24-b8ad-45dc-a282-bd409da977e1)
 
-<a href="https://youtube.com/shorts/4EMFu5LgZe8?si=GXFyHLvqX8ve4zpp" target="_blank"> PRO-SIM FOV UTILITY Fix the “False” Feeling of Speed Assetto Corsa Rally and RBR </a>
+[![PRO-SIM FOV UTILITY Fix the “False” Feeling of Speed](https://img.shields.io/badge/YouTube-Watch%20Fix-red?style=for-the-badge&logo=youtube)](https://youtube.com/shorts/4EMFu5LgZe8?si=GXFyHLvqX8ve4zpp)
 
-## ✨ New Features: Profile Management
-To improve usability and configuration speed, profile management has been implemented. Users can now save and load different setup configurations (e.g., "Desk Rig", "Main Sim Rig") without having to re-enter all data manually.
+**Pro-Sim FOV Utility** is a portable, high-precision tool designed to calculate the correct Field of View (FOV) and angles for Sim Racing setups. Whether you use a single monitor or a triple-screen configuration, this tool ensures accurate perspective for titles like *Assetto Corsa*, *iRacing*, *Automobilista 2*, and more.
 
-## 🚀 Portable Usage
+---
 
-### **System Requirements**
-- Windows 10/11 (64-bit)
-- .NET Framework 4.8 (usually pre-installed on Windows 10/11)
-- **Administrator privileges required for full functionality**
+## 📢 Latest Updates
 
-### **Running the Application**
-1. **Download** the portable executable (.exe) from releases
-2. **Place anywhere** - desktop, game folder, or USB drive
-3. **Double-click** `Pro-Sim FOV Utility.exe` to launch
-4. Grant **Administrator permissions** when prompted by Windows UAC
-5. The optimized GUI interface loads automatically
-
-### **⚠️ Security Note for Portable Executable**
-Since this is an unsigned portable application, Windows SmartScreen may show a warning. This is normal for community-developed tools:
-
-- Click **"More info"** → **"Run anyway"** 
-- The application is completely safe and only modifies standard Windows gaming optimizations
-- All changes are reversible through the application itself
-
-### **Portability Benefits**
-- **Carry on USB**: Use the same optimized settings on multiple PCs
-- **Game LAN Ready**: Perfect for gaming tournaments and LAN parties
-- **No Installation Conflicts**: Safe to use alongside other gaming software
-- **Instant Cleanup**: Simply delete the .exe to remove the tool completely
-
-## 💾 Save Profile
-The "Save Profile" button has been added.
-
-When pressed, the application opens a SaveFileDialog window.
-
-The current configuration is serialized into a PSCustomObject and saved to a .json file chosen by the user.
-
-## 📂 Load Profile
-The "Load Profile" button has been added.
-
-It allows the user to select a .json file via an OpenFileDialog.
-
-The application reads the file, deserializes it, and automatically repopulates all controls (sliders, checkboxes, comboboxes) with the saved values.
-
-After loading, a recalculation (Calculate-FOV) and a diagram update (Update-PreviewDiagram) are immediately performed to reflect the loaded profile.
-
-## 🎨 UI Changes
-The three action buttons ("Load Profile", "Save Profile", "Save Image Report") are now aligned at the bottom of the window for quick and organized access.
-
-## Screenshot Feature - Text Results with Custom Background
-Overview
-Enhanced screenshot functionality that generates professional 1280x720 images containing only FOV calculation results overlaid on a custom car background.
-
-## Features
-🖼️ Custom Background Support
-Template Integration: Automatically loads img\cockpit_template.png as background
-
-Car Styling: Displays FOV results over custom car imagery
-
-Image Requirements: 1280x720 PNG format recommended
-
-## 📊 Comprehensive Data Display
-Two-Column Layout: Clean separation of input parameters and calculated results
-
-Input Parameters: Screen size, ratio, distance, bezel, curvature settings
-
-FOV Results: Complete calculation outputs for all supported racing sims
-
-Unit Conversion: Automatic cm to inches conversion for distance
-
-## 🎨 Professional Styling
-Semi-Transparent Background: Dark overlay ensures text readability
-
-Consistent Theme: Matches application color scheme (blue/cyan accents)
-
-Decorative Border: Professional framing with application branding colors
-
-## Usage
-Click "Save Image Report" button
-
-System automatically:
-
-Loads custom background template
-
-Renders all FOV data in organized layout
-
-Applies professional styling and transparency
-
-Saves as 1280x720 PNG with custom filename
-
-## Output
-Filename: FOV_Results.png (customizable)
-
-Dimensions: 1280×720 pixels
-
-Content: Text-only FOV calculations over custom car background
-
-Format: PNG with transparency support
-
-Perfect for sharing setup details with clean, branded presentation that maintains your custom automotive styling.
+### `fix(calc)`: Assetto Corsa Rally Correction
+* **Horizontal FOV Adjustment:** Corrected the FOV calculation for *Assetto Corsa Rally* to use **Horizontal FOV (hFOV)** instead of Vertical FOV (vFOV). The value now aligns correctly with other hFOV-based titles like AMS2 and iRacing.
 
 ### 🚀 Dynamic Preview Refinements
+* **Live Inch Conversion:** The distance measurement line now displays values in **inches** alongside centimeters for immediate utility.
+* **Cleaner Interface:** Angle and mode labels have been moved from the center to a dedicated column in the **top-left corner**. This prevents text overlap when the virtual pilot's head is close to the screens.
+* **Sync Fixes:** Resolved a bug where toggling inputs (Curved Screen, Bezel, etc.) caused the Triple Screen Angle to display outdated values. Calculations now run strictly before the drawing routine.
 
-This update focuses on cleaning up the dynamic FOV preview diagram, improving readability, and fixing a synchronization bug.
+---
 
-#### 🆕 New Features: Cleaner Diagram and Live Conversions
-* **Distance in Inches (Live Conversion):** The distance measurement line now displays the value in **inches** ('') instead of centimeters (cm). This provides a real-time conversion from the main input slider and declutters the chart while offering immediate utility.
-* **Central Text Removal:** All angle and mode labels have been removed from the crowded center of the dynamic diagram to prevent overlapping when the virtual pilot's head is close to the screen(s).
-* **Left-Aligned Label Column:** All essential metadata (Triple Screen Angle, Bezel, Curve Radius, Screen Mode) has been moved to a new, clean column in the **top-left corner** of the diagram, ensuring readability regardless of the FOV settings.
+## ✨ Key Features
 
-#### 🐛 Bug Fixes
-* **Triple Screen Angle Synchronization Fix:** Resolved a critical bug where toggling input options (like "Curved Screen," "Screens," "Distance," or "Bezel") could cause the dynamic diagram to display an outdated or inverted Triple Screen Angle value. The calculation (`Calculate-FOV`) now runs reliably **before** the drawing routine (`Update-PreviewDiagram`) to ensure the preview always reflects the current settings.
+### 💾 Profile Management
+Save time by storing different setup configurations (e.g., "Desk Rig" vs. "Main Sim Rig").
+* **Save Profile:** Serializes current configuration to a `.json` file.
+* **Load Profile:** Deserializes the file and automatically repopulates all sliders, checkboxes, and values. The preview diagram instantly updates to reflect the loaded profile.
 
-👁️ FOV Visualization: Dashed lines showing the field of view angle
+### 📊 Professional Image Reports
+Generate shareable, professional screenshots of your setup data.
+* **Custom Backgrounds:** Automatically overlays text results on a custom car cockpit background (`img\cockpit_template.png`).
+* **Clean Layout:** 1280x720 PNG output with a two-column design separating input parameters from calculated results.
+* **Styling:** Features a dark, semi-transparent overlay for readability and branding-consistent borders.
 
-🎯 Dynamic Head Position: Representation of head that moves based on distance
+### 👁️ Dynamic Visual Diagram
+A real-time visual representation of your rig that updates instantly as you adjust sliders.
+* **Triple Screen Logic:** Accurately visualizes side screens tilted at specific angles (defaulting to 30°) and joined to the center screen.
+* **Bezel Integration:** Visually represents bezel thickness between screens.
+* **Head Position:** An oval represents the user, moving dynamically based on distance settings.
+* **FOV Lines:** Yellow dashed lines indicate the actual Field of View angle.
 
-📏 Real-time Distance: Red dotted line with actual distance label
+---
 
-🖥️ Dynamic Multi-Configuration Screen:
+## 🛠️ Installation & Usage
 
-Single Screen: Single continuous line
+This is a **Portable Application**—no installation is required.
 
-Triple Screens: Three joined screens with side screens tilted towards the user (racing simulator configuration)
+### System Requirements
+* **OS:** Windows 10 / 11 (64-bit)
+* **Framework:** .NET Framework 4.8 (usually pre-installed)
+* **Permissions:** **Administrator privileges** are required for full functionality.
 
-🔄 Instant Update: All changes are immediately reflected in the diagram
+### How to Run
+1.  **Download** the `.exe` from the Releases page.
+2.  **Place it** anywhere (Desktop, USB drive, Game folder).
+3.  **Right-click** `Pro-Sim FOV Utility.exe` and **Run as Administrator**.
+4.  *Note:* Since this is a community tool, Windows SmartScreen may warn you. Click **"More info" → "Run anyway"**.
 
-📐 Bezel Integration: Spaces between triple screens represent bezel thickness
+### Portability Benefits
+* **USB Ready:** Carry your settings to LAN parties or tournaments.
+* **No Conflicts:** Runs safely alongside other gaming software.
+* **Easy Cleanup:** Simply delete the executable to remove the tool.
 
-🎮 Simulator Configuration: Side screens tilted at 30 degrees and joined to the center screen for realistic representation
+---
 
-Technical Capabilities:
+## 🏎️ Supported Simulators
+Calculates accurate FOV for a wide range of titles, including:
+* Assetto Corsa & Assetto Corsa Competizione / EVO / Rally
+* iRacing
+* Automobilista 1 & 2
+* rFactor 1 & 2
+* Le Mans Ultimate
+* DiRT Rally / Richard Burns Rally (RBR)
 
-Visual support for single and triple screens
+---
 
-Automatic adaptation to different aspect ratios
+## 🎓 Why Calculate FOV?
 
-Correct distance visualization (inverted logic)
+**Correct FOV means better lap times.**
 
-Curved screen handling
+1.  **Speed Perception:** A properly set FOV ensures objects appear at the correct size and distance relative to your real-world perspective. This fixes the "false" feeling of speed often caused by overly wide default settings.
+2.  **Spatial Awareness:** Improves judgment for braking points, corner apexes, and distance to other cars.
+3.  **Consistency:** While a mathematically correct FOV might feel "zoomed in" at first, adapting to it typically leads to greater consistency and faster lap times.
 
-Proportional screen size calculations
+> **Note for Triple Screens:** Pay close attention to the "Triple Screen Horizontal FOV" and angle values in the results. These ensure a seamless transition across all three monitors.
 
-Realistic representation of joined and tilted triple screens
+---
 
-Implemented Advanced Features:
-
-✅ Conditional Rendering: Diagram dynamically switches between single/triple screen
-
-✅ Visual Bezels: Proportional spaces between triple screens
-
-✅ Proportional Calculations: Accurate screen sizes in diagram
-
-✅ Real-time Update: Immediate response to all controls
-
-✅ Efficient Resource Management: Automatic graphic memory cleanup
-
-✅ Side Screens Tilt: Realistic 30-degree representation for simulators
-
-✅ Screen Joining: Side screens perfectly joined to the center screen
-
-Controls that Trigger Updates:
-
-🔄 Screen type change (Single/Triple)
-
-🔄 Screen size modification
-
-🔄 Distance adjustment
-
-🔄 Bezel thickness change
-
-🔄 Aspect ratio switch
-
-🔄 Curved screen toggle
-
-Diagram Elements:
-
-🔵 User Head: Oval representing user position
-
-🔷 Screen Line: Blue lines representing the screens (single or triple)
-
-📐 FOV Lines: Yellow dashed lines showing field of view angle
-
-🔴 Distance Line: Red dotted line showing distance
-
-📝 Label: Text indicating distance value
-
-Realistic Setup:
-
-🎯 Optimal Angling: Side screens tilted at 30° towards the user
-
-🔗 Visual Continuity: Perfect transition between center and side screens
-
-👁️ Extended Field of View: FOV lines following screen inclination
-
-📊 Accurate Proportions: Real sizes maintained in diagram
-
-Benefits:
-
-Immediate visual representation of setup
-
-Real-time feedback on changes
-
-Realistic visualization for professional racing setups
-
-*Ultimo aggiornamento / Last update: 2024*
-*Compatibile con / Compatible with: PowerShell 5.1+*
-*Supporta / Supports: Windows 10/11*
-Feature Highlight: Diagramma Dinamico Multi-Schermo Inclinato / Tilted Multi-Screen Dynamic Diagram
-
-Calculate FOV and Angles for Triple Screens
-Calculate the correct Field of View (FOV) and angles for triple screen configuration for all Sim Racing games, including Assetto Corsa Rally, Assetto Corsa EVO, iRacing, Automobilista, rFactor, Le Mans Ultimate, DiRT Rally, and Richard Burns Rally.
-
-🏎️ How to Calculate Field of View
-Enter your measurements: Input your monitor measurements and viewing distance.
-
-Aspect Ratio: Make sure you know your screen's aspect ratio (this really makes a big difference!).
-
-🎯 Understanding the FOV Result
-After entering your monitor measurements and seating position, you'll see a list of FOV (Field of View) values for various sim racing games.
-
-These numbers represent the optimal viewing angle for your configuration, helping to create a more immersive and realistic driving experience. A properly set FOV ensures that objects in the game appear with the correct size and distance relative to your real-world perspective.
-
-Benefits
-This can significantly improve your spatial awareness on track, allowing for better judgment of corners, braking points, and overtaking opportunities.
-
-Horizontal vs. Vertical FOV
-For most simulators, you'll see a Horizontal FOV (hFOV) value. This is the side-to-side viewing angle and is typically the value you'll need to enter in the game settings.
-
-Some games, like Assetto Corsa Rally, use Vertical FOV (vFOV) instead, which represents the top-to-bottom angle.
-
-Adaptation and Performance
-Remember, while a correct FOV might initially feel unusual if you're used to a wider, unrealistic setting, give yourself time to adapt. Many Sim Racers report greater consistency and faster lap times after getting accustomed to a properly calculated FOV.
-
-Correct FOV means better lap times!
-
-🖥️ Triple Screen Configuration
-If you have a triple screen setup, pay attention to the "Triple Screen Horizontal FOV" value in the calculator results.
-
-This helps you set the correct angle between your monitors for seamless viewing across all three screens.
-
-Final Note
-These calculations provide a strong starting point. Feel free to make small adjustments based on personal preferences, but try to stay close to these values for the most authentic driving experience.
-
-Note: This utility supports calculations for both single and triple screen setups, with special consideration for racing simulator configurations including tilted side screens.
+*Last Update: 2024 | Compatible with PowerShell 5.1+*
 
 
 
