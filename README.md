@@ -8,6 +8,33 @@
 ## ✨ New Features: Profile Management
 To improve usability and configuration speed, profile management has been implemented. Users can now save and load different setup configurations (e.g., "Desk Rig", "Main Sim Rig") without having to re-enter all data manually.
 
+## 🚀 Portable Usage
+
+### **System Requirements**
+- Windows 10/11 (64-bit)
+- .NET Framework 4.8 (usually pre-installed on Windows 10/11)
+- **Administrator privileges required for full functionality**
+
+### **Running the Application**
+1. **Download** the portable executable (.exe) from releases
+2. **Place anywhere** - desktop, game folder, or USB drive
+3. **Double-click** `Pro-Sim FOV Utility.exe` to launch
+4. Grant **Administrator permissions** when prompted by Windows UAC
+5. The optimized GUI interface loads automatically
+
+### **⚠️ Security Note for Portable Executable**
+Since this is an unsigned portable application, Windows SmartScreen may show a warning. This is normal for community-developed tools:
+
+- Click **"More info"** → **"Run anyway"** 
+- The application is completely safe and only modifies standard Windows gaming optimizations
+- All changes are reversible through the application itself
+
+### **Portability Benefits**
+- **Carry on USB**: Use the same optimized settings on multiple PCs
+- **Game LAN Ready**: Perfect for gaming tournaments and LAN parties
+- **No Installation Conflicts**: Safe to use alongside other gaming software
+- **Instant Cleanup**: Simply delete the .exe to remove the tool completely
+
 ## 💾 Save Profile
 The "Save Profile" button has been added.
 
@@ -223,5 +250,6 @@ Final Note
 These calculations provide a strong starting point. Feel free to make small adjustments based on personal preferences, but try to stay close to these values for the most authentic driving experience.
 
 Note: This utility supports calculations for both single and triple screen setups, with special consideration for racing simulator configurations including tilted side screens.
+
 
 
