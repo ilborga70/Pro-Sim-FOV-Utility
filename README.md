@@ -13,6 +13,8 @@
 ## 📢 Latest Updates
 
 ### New FOV Values Assetto Corsa Rally
+* **New ACR Dashboard View**
+* **New ACR Cockpit View**
 
 ## 📢 Updates
 
@@ -95,5 +97,6 @@ Calculates accurate FOV for a wide range of titles, including:
 
 
 *Last Update: 2024 | Compatible with PowerShell 5.1+*
+
 
 
