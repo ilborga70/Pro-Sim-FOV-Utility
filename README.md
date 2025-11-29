@@ -12,6 +12,10 @@
 
 ## 📢 Latest Updates
 
+### New FOV Values Assetto Corsa Rally
+
+## 📢 Updates
+
 ### `fix(calc)`: Assetto Corsa Rally Correction
 * **Horizontal FOV Adjustment:** Corrected the FOV calculation for *Assetto Corsa Rally* to use **Horizontal FOV (hFOV)** instead of Vertical FOV (vFOV). The value now aligns correctly with other hFOV-based titles like AMS2 and iRacing.
 
@@ -91,4 +95,5 @@ Calculates accurate FOV for a wide range of titles, including:
 
 
 *Last Update: 2024 | Compatible with PowerShell 5.1+*
+
 
