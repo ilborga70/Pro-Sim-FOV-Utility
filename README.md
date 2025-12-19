@@ -4,12 +4,6 @@
 
 [![PRO-SIM FOV UTILITY Fix the “False” Feeling of Speed](https://img.shields.io/badge/YouTube-Watch%20Fix-red?style=for-the-badge&logo=youtube)](https://youtube.com/shorts/4EMFu5LgZe8?si=GXFyHLvqX8ve4zpp)
 
-🎯 PRO-SIM FOV UTILITY:
-👉 https://github.com/ilborga70/Pro-Sim-FOV-Utility/releases
-
-🖥️ Assetto Corsa Rally Release 0.2 is OUT NOW:
-👉 https://store.steampowered.com/news/app/3917090/view/514103843981624359
-
 * **🏁  Why Pro-Sim FOV Utility Is Superior**
 * **🔍  Beyond Geometry**
 Traditional calculators rely only on a distance ÷ width formula.
@@ -123,6 +117,7 @@ Calculates accurate FOV for a wide range of titles, including:
 
 
 *Last Update: 2024 | Compatible with PowerShell 5.1+*
+
 
 
 
