@@ -23,10 +23,9 @@ Standard calculators misinterpret this, producing distorted results.
 Pro-Sim applies a custom mathematical transformation tailored to RBR’s code.
 Guarantees perfect geometry on 16:9 and 21:9 monitors, restoring cockpit realism.
 * **🎯  The Bottom Line**
-* **Pro-Sim FOV Utility is not just a calculator — it’s a vision simulator.By combining monitor geometry + biology of vision, it ensures that every millimeter of asphalt displayed matches the distance your brain expects in reality.**
-
-* **Pro-Sim FOV Utility is a portable, high-precision tool designed to calculate the correct Field of View (FOV) and angles for Sim Racing setups.**
-* **Whether you use a single monitor or a triple-screen configuration, this tool ensures accurate perspective for titles like *Assetto Corsa*, *iRacing*, *Automobilista 2*, and more.**
+Pro-Sim FOV Utility is not just a calculator — it’s a vision simulator.By combining monitor geometry + biology of vision, it ensures that every millimeter of asphalt displayed matches the distance your brain expects in reality.
+Pro-Sim FOV Utility is a portable, high-precision tool designed to calculate the correct Field of View (FOV) and angles for Sim Racing setups.
+Whether you use a single monitor or a triple-screen configuration, this tool ensures accurate perspective for titles like *Assetto Corsa*, *iRacing*, *Automobilista 2*, and more.
 
 ---
 
@@ -117,6 +116,7 @@ Calculates accurate FOV for a wide range of titles, including:
 
 
 *Last Update: 2024 | Compatible with PowerShell 5.1+*
+
 
 
 
