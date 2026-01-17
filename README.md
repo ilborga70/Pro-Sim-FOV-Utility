@@ -1,11 +1,18 @@
 <img width="1376" height="764" alt="ACRally Release 0 2 - Camera Customization (FOV)" src="https://github.com/user-attachments/assets/7ea1a4e9-d89a-4f02-9aa0-052ae4727aba" />
 
-<img width="2540" height="1426" alt="Pro-Sim FOV Utility v9 0 0 0" src="https://github.com/user-attachments/assets/e1143dda-5351-44f3-8acc-f70de4c0b1b3" />
+![Pro-Sim FOV Utility v1 0 0](https://github.com/user-attachments/assets/352e6da5-b579-4e5a-9f57-a2cf03a4f018)
 
 [![PRO-SIM FOV UTILITY Fix the “False” Feeling of Speed](https://img.shields.io/badge/YouTube-Watch%20Fix-red?style=for-the-badge&logo=youtube)](https://youtube.com/shorts/4EMFu5LgZe8?si=GXFyHLvqX8ve4zpp)
 
+## 📢 Latest Updates
 
-* **🏁  Why Pro-Sim FOV Utility Is Superior**
+Pro-Sim FOV Utility v1.0.0.0
+- Changelog:
+- Single-File Portability: The application icon is now embedded directly into the script (Base64).
+- The utility is now fully standalone and no longer requires the external ico folder to function.
+- Changed the monitor ratio value to standard instead of 16:9
+
+## 🏁  Why Pro-Sim FOV Utility Is Superior
 * **🔍  Beyond Geometry**
 Traditional calculators rely only on a distance ÷ width formula.
 Pro-Sim integrates human physiology and spatial perception, ensuring realism that pure math cannot achieve.
@@ -29,16 +36,9 @@ By combining monitor geometry + biology of vision, it ensures that every millime
 Pro-Sim FOV Utility is a portable, high-precision tool designed to calculate the correct Field of View (FOV) and angles for Sim Racing setups.
 Whether you use a single monitor or a triple-screen configuration, this tool ensures accurate perspective for titles like *Assetto Corsa*, *iRacing*, *Automobilista 2*, and more.
 
----
-
-## 📢 Latest Updates
-
 ### New FOV Values Assetto Corsa Rally
 * **New ACR Dashboard View**
 * **New ACR Cockpit View**
-
-## 📢 Updates
-
 ### `fix(calc)`: Assetto Corsa Rally Correction
 * **Horizontal FOV Adjustment:** Corrected the FOV calculation for *Assetto Corsa Rally* to use **Horizontal FOV (hFOV)** instead of Vertical FOV (vFOV). The value now aligns correctly with other hFOV-based titles like AMS2 and iRacing.
 
@@ -118,6 +118,7 @@ Calculates accurate FOV for a wide range of titles, including:
 
 
 *Last Update: 2024 | Compatible with PowerShell 5.1+*
+
 
 
 
