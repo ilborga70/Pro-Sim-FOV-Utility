@@ -8,6 +8,7 @@
 
 Pro-Sim FOV Utility v1.0.0.0
 - Changelog:
+- Now the executable file "Pro-Sim FOV Utility.exe" does not require to be run as administrator.
 - Single-File Portability: The application icon is now embedded directly into the script (Base64).
 - The utility is now fully standalone and no longer requires the external ico folder to function.
 - Changed the monitor ratio value to standard instead of 16:9
@@ -118,6 +119,7 @@ Calculates accurate FOV for a wide range of titles, including:
 
 
 *Last Update: 2024 | Compatible with PowerShell 5.1+*
+
 
 
 
