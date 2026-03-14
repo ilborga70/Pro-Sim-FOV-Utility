@@ -1,6 +1,10 @@
 <img width="1376" height="764" alt="ACRally Release 0 2 - Camera Customization (FOV)" src="https://github.com/user-attachments/assets/7ea1a4e9-d89a-4f02-9aa0-052ae4727aba" />
 
-![Pro-Sim FOV Utility v1 0 0](https://github.com/user-attachments/assets/352e6da5-b579-4e5a-9f57-a2cf03a4f018)
+# Pro-Sim FOV Utility v2.0.0.0
+- Changelog:
+- Input Controls: Enhanced ComboBox behavior for Screen Ratio and Screens by setting them to DropDownList style, preventing manual text entry and improving stability.
+- Result Display: The results box has been streamlined by removing scrollbars and setting the cursor to a default arrow to emphasize its read-only nature.
+- Trigonometry Engine: Refined the FOV calculation logic to better handle curved screens and triple-screen angles.
 
 [![PRO-SIM FOV UTILITY Fix the “False” Feeling of Speed](https://img.shields.io/badge/YouTube-Watch%20Fix-red?style=for-the-badge&logo=youtube)](https://youtube.com/shorts/4EMFu5LgZe8?si=GXFyHLvqX8ve4zpp)
 
