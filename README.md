@@ -8,9 +8,7 @@
 
 [![PRO-SIM FOV UTILITY Fix the “False” Feeling of Speed](https://img.shields.io/badge/YouTube-Watch%20Fix-red?style=for-the-badge&logo=youtube)](https://youtube.com/shorts/4EMFu5LgZe8?si=GXFyHLvqX8ve4zpp)
 
-## 📢 Latest Updates
-
-Pro-Sim FOV Utility v1.0.0.0
+# Changes v1.0
 - Changelog:
 - Now the executable file "Pro-Sim FOV Utility.exe" does not require to be run as administrator.
 - Single-File Portability: The application icon is now embedded directly into the script (Base64).
