@@ -1,6 +1,6 @@
 <img width="1376" height="764" alt="ACRally Release 0 2 - Camera Customization (FOV)" src="https://github.com/user-attachments/assets/7ea1a4e9-d89a-4f02-9aa0-052ae4727aba" />
 
-# Changes v2.0
+# Changes v2.0 + Fix
 - Unzip the img.zip archive into the main Pro-Sim FOV Utility folder, replace when prompted by the warning message.
 - Input Controls: Enhanced ComboBox behavior for Screen Ratio and Screens by setting them to DropDownList style, preventing manual text entry and improving stability.
 - Result Display: The results box has been streamlined by removing scrollbars and setting the cursor to a default arrow to emphasize its read-only nature.
