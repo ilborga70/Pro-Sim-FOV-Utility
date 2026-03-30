@@ -6,6 +6,7 @@
 - Result Display: The results box has been streamlined by removing scrollbars and setting the cursor to a default arrow to emphasize its read-only nature.
 - Trigonometry Engine: Refined the FOV calculation logic to better handle curved screens and triple-screen angles.
 <img width="1885" height="791" alt="Pro-Sim FOV Utility v2 0 0" src="https://github.com/user-attachments/assets/b56c1b3c-0578-4f9a-ba26-fd2e9fa6ecb5" />
+<img width="1280" height="720" alt="FOV_Results" src="https://github.com/user-attachments/assets/e67396b1-2fa9-4f1b-aee5-9b261dc4da52" />
 
 [![PRO-SIM FOV UTILITY Fix the “False” Feeling of Speed](https://img.shields.io/badge/YouTube-Watch%20Fix-red?style=for-the-badge&logo=youtube)](https://youtube.com/shorts/4EMFu5LgZe8?si=GXFyHLvqX8ve4zpp)
 
