@@ -1,12 +1,36 @@
 <img width="1376" height="764" alt="ACRally Release 0 2 - Camera Customization (FOV)" src="https://github.com/user-attachments/assets/7ea1a4e9-d89a-4f02-9aa0-052ae4727aba" />
 
+[![PRO-SIM FOV UTILITY Fix the “False” Feeling of Speed](https://img.shields.io/badge/YouTube-Watch%20Fix-red?style=for-the-badge&logo=youtube)](https://youtube.com/shorts/4EMFu5LgZe8?si=GXFyHLvqX8ve4zpp)
+
+<img width="1947" height="1070" alt="Pro-Sim FOV Utility v3 0 0" src="https://github.com/user-attachments/assets/0f4692e8-01e9-44dd-ad03-c1b0e1f28c52" />
+
+# Changelog - Pro-Sim FOV Utility v3.0.0.0
+
+## 🚀 Main Feature: Half-Inch Support
+- **Enhanced Precision:** Introduced the ability to select screen sizes with **0.5-inch** increments (e.g., 24.5", 27.5", 31.5").
+- **Dynamic UI:** The value label next to the slider now correctly displays decimals (e.g., `27.5''`).
+
+## 🛠 Bug Fixes & Improvements
+### 💾 Profile Saving System (JSON)
+- **My_Profile_FOV.json Fix:** Resolved an issue where the profile saved the "raw" slider value (e.g., 55) instead of the actual inches (e.g., 27.5).
+- **Backward Compatibility:** The loading system is now "smart": it automatically recognizes both old profiles (integers) and new ones (with decimals), adapting them to the new scale without errors.
+
+### 📊 Image Report (PNG)
+- **Graphic Report Update:** The "Save Image Report" function now prints the exact dimension with decimals in the `FOV_Results.png` file, avoiding rounding errors that could mislead the user.
+
+### 🔧 Code Optimizations
+- **GDI+ Resource Management:** Improved memory handling during FOV diagram drawing to prevent slowdowns after multiple calculations.
+- **Robust Parsing:** Added error handling for the Ratio selector (Standard/16:9) to prevent crashes with custom configurations.
+
+---
+**Why this update is important:**
+Many sim racers use monitors with 24.5" or 27.5" panels (common in modern gaming displays). Specifying support for "half-inches" is a key advantage for this utility compared to simpler FOV calculators that only accept whole numbers.
+
 # Changes v2.0 + Fix
 - Unzip the img.zip archive into the main Pro-Sim FOV Utility folder, replace when prompted by the warning message.
 - Input Controls: Enhanced ComboBox behavior for Screen Ratio and Screens by setting them to DropDownList style, preventing manual text entry and improving stability.
 - Result Display: The results box has been streamlined by removing scrollbars and setting the cursor to a default arrow to emphasize its read-only nature.
 - Trigonometry Engine: Refined the FOV calculation logic to better handle curved screens and triple-screen angles.
-<img width="1885" height="791" alt="Pro-Sim FOV Utility v2 0 0" src="https://github.com/user-attachments/assets/b56c1b3c-0578-4f9a-ba26-fd2e9fa6ecb5" />
-<img width="1280" height="720" alt="FOV_Results" src="https://github.com/user-attachments/assets/e67396b1-2fa9-4f1b-aee5-9b261dc4da52" />
 
 [![PRO-SIM FOV UTILITY Fix the “False” Feeling of Speed](https://img.shields.io/badge/YouTube-Watch%20Fix-red?style=for-the-badge&logo=youtube)](https://youtube.com/shorts/4EMFu5LgZe8?si=GXFyHLvqX8ve4zpp)
 
