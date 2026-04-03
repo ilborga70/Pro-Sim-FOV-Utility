@@ -5,40 +5,43 @@
 <img width="1947" height="1070" alt="Pro-Sim FOV Utility v3 0 0" src="https://github.com/user-attachments/assets/0f4692e8-01e9-44dd-ad03-c1b0e1f28c52" />
 
 ## Online “Antivirus False Positives” Scans:
-Since the file was compiled using Win-PS2EXE, any alerts are due to the nature of the compiler wrapper.
-Don’t worry—the code has been reviewed by IT experts and has been found to be completely safe and clean.
+- Since the file was compiled using Win-PS2EXE, any alerts are due to the nature of the compiler wrapper.
+- Don’t worry the code has been reviewed by IT experts and has been found to be completely safe and clean.
 
 # Changelog v3.5
 
 ## 🐛 Fix: Resolved FOV calculation bug for curved monitors
 
 **What has changed:**
-Resolved a critical error in calculating the effective width (geometric chord) for curved monitors, which previously resulted in values nearly identical to flat screens. The underlying mathematical formula has been corrected in its ratios and optimized for execution.
+- Resolved a critical error in calculating the effective width (geometric chord) for curved monitors, which previously resulted in values nearly identical to flat screens.
+- The underlying mathematical formula has been corrected in its ratios and optimized for execution.
 
 **Impact:**
-When the "Curved Screen" checkbox is enabled, the script now mathematically accurately calculates the reduction in the panel's horizontal visual width. This provides exact FOV values and Triple Screen Angles for racing simulations.
+- When the "Curved Screen" checkbox is enabled, the script now mathematically accurately calculates the reduction in the panel's horizontal visual width.
+- This provides exact FOV values and Triple Screen Angles for racing simulations.
 
 # Changelog v3.0
 
 ## 🚀 Main Feature: Half-Inch Support
-Enhanced Precision:** Introduced the ability to select screen sizes with **0.5-inch** increments (e.g., 24.5", 27.5", 31.5").
-Dynamic UI:** The value label next to the slider now correctly displays decimals (e.g., `27.5''`).
+- Enhanced Precision: Introduced the ability to select screen sizes with 0.5-inch increments (e.g., 24.5", 27.5", 31.5").
+- Dynamic UI: The value label next to the slider now correctly displays decimals (e.g., `27.5''`).
 
 ## 🛠 Bug Fixes & Improvements
 ### 💾 Profile Saving System (JSON)
-My_Profile_FOV.json Fix:** Resolved an issue where the profile saved the "raw" slider value (e.g., 55) instead of the actual inches (e.g., 27.5).
-Backward Compatibility:** The loading system is now "smart": it automatically recognizes both old profiles (integers) and new ones (with decimals), adapting them to the new scale without errors.
+- My_Profile_FOV.json Fix: Resolved an issue where the profile saved the "raw" slider value (e.g., 55) instead of the actual inches (e.g., 27.5).
+- Backward Compatibility: The loading system is now "smart": it automatically recognizes both old profiles (integers) and new ones (with decimals), adapting them to the new scale without errors.
 
 ### 📊 Image Report (PNG)
-Graphic Report Update:** The "Save Image Report" function now prints the exact dimension with decimals in the `FOV_Results.png` file, avoiding rounding errors that could mislead the user.
+- Graphic Report Update: The "Save Image Report" function now prints the exact dimension with decimals in the `FOV_Results.png` file, avoiding rounding errors that could mislead the user.
 
 ### 🔧 Code Optimizations
-GDI+ Resource Management:** Improved memory handling during FOV diagram drawing to prevent slowdowns after multiple calculations.
-Robust Parsing:** Added error handling for the Ratio selector (Standard/16:9) to prevent crashes with custom configurations.
+- GDI+ Resource Management: Improved memory handling during FOV diagram drawing to prevent slowdowns after multiple calculations.
+- Robust Parsing: Added error handling for the Ratio selector (Standard/16:9) to prevent crashes with custom configurations.
 
 ---
-**Why this update is important:**
-Many sim racers use monitors with 24.5" or 27.5" panels (common in modern gaming displays). Specifying support for "half-inches" is a key advantage for this utility compared to simpler FOV calculators that only accept whole numbers.
+Why this update is important:
+- Many sim racers use monitors with 24.5" or 27.5" panels (common in modern gaming displays).
+- Specifying support for "half-inches" is a key advantage for this utility compared to simpler FOV calculators that only accept whole numbers.
 
 # Changes v2.0 + Fix
 - Unzip the img.zip archive into the main Pro-Sim FOV Utility folder, replace when prompted by the warning message.
