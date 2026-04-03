@@ -4,29 +4,36 @@
 
 <img width="1947" height="1070" alt="Pro-Sim FOV Utility v3 0 0" src="https://github.com/user-attachments/assets/0f4692e8-01e9-44dd-ad03-c1b0e1f28c52" />
 
-# Report Virscan - Pro-Sim FOV Utility
+## Online “Antivirus False Positives” Scans:
+Since the file was compiled using Win-PS2EXE, any alerts are due to the nature of the compiler wrapper. Don’t worry—the code has been reviewed by IT experts and has been found to be completely safe and clean.
 
-https://www.virscan.org/report/a8afecae92a9d244a379d2a017d5312b734482e93d72db7fdb5be6b43ff2df7d
+# Changelog v3.5
 
-<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi7aMc8NaGibVFcOetvMdyyCkM0WV2-8-pgaAGnW39W_acGAPwjZDsvR3En4fvK3dhyphenhyphenY5Hlthvz04FUeNnA3FjaOspyBhcuqh_n6y-tVTTYc08D003kCUseih1li51_oV5xBtOsH0_05Cvxu5grs28No240bV_TGiTMaVmY9mXG303c8jzMBpi-d5zGEGg/s825/Report%20Virscan.png" />
+## 🐛 Fix: Resolved FOV calculation bug for curved monitors
 
-# Changelog - Pro-Sim FOV Utility v3.0.0.0
+**What has changed:**
+Resolved a critical error in calculating the effective width (geometric chord) for curved monitors, which previously resulted in values nearly identical to flat screens. The underlying mathematical formula has been corrected in its ratios and optimized for execution.
+
+**Impact:**
+When the "Curved Screen" checkbox is enabled, the script now mathematically accurately calculates the reduction in the panel's horizontal visual width. This provides exact FOV values and Triple Screen Angles for racing simulations.
+
+# Changelog v3.0
 
 ## 🚀 Main Feature: Half-Inch Support
-- **Enhanced Precision:** Introduced the ability to select screen sizes with **0.5-inch** increments (e.g., 24.5", 27.5", 31.5").
-- **Dynamic UI:** The value label next to the slider now correctly displays decimals (e.g., `27.5''`).
+Enhanced Precision:** Introduced the ability to select screen sizes with **0.5-inch** increments (e.g., 24.5", 27.5", 31.5").
+Dynamic UI:** The value label next to the slider now correctly displays decimals (e.g., `27.5''`).
 
 ## 🛠 Bug Fixes & Improvements
 ### 💾 Profile Saving System (JSON)
-- **My_Profile_FOV.json Fix:** Resolved an issue where the profile saved the "raw" slider value (e.g., 55) instead of the actual inches (e.g., 27.5).
-- **Backward Compatibility:** The loading system is now "smart": it automatically recognizes both old profiles (integers) and new ones (with decimals), adapting them to the new scale without errors.
+My_Profile_FOV.json Fix:** Resolved an issue where the profile saved the "raw" slider value (e.g., 55) instead of the actual inches (e.g., 27.5).
+Backward Compatibility:** The loading system is now "smart": it automatically recognizes both old profiles (integers) and new ones (with decimals), adapting them to the new scale without errors.
 
 ### 📊 Image Report (PNG)
-- **Graphic Report Update:** The "Save Image Report" function now prints the exact dimension with decimals in the `FOV_Results.png` file, avoiding rounding errors that could mislead the user.
+Graphic Report Update:** The "Save Image Report" function now prints the exact dimension with decimals in the `FOV_Results.png` file, avoiding rounding errors that could mislead the user.
 
 ### 🔧 Code Optimizations
-- **GDI+ Resource Management:** Improved memory handling during FOV diagram drawing to prevent slowdowns after multiple calculations.
-- **Robust Parsing:** Added error handling for the Ratio selector (Standard/16:9) to prevent crashes with custom configurations.
+GDI+ Resource Management:** Improved memory handling during FOV diagram drawing to prevent slowdowns after multiple calculations.
+Robust Parsing:** Added error handling for the Ratio selector (Standard/16:9) to prevent crashes with custom configurations.
 
 ---
 **Why this update is important:**
