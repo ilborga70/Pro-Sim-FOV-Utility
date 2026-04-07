@@ -9,7 +9,8 @@
 ## Online “Antivirus False Positives”
 - Since the file was compiled using Win-PS2EXE, any alerts are due to the nature of the compiler wrapper.
 - Don’t worry the code has been reviewed by IT experts and has been found to be completely safe and clean.
-<a href="https://www.virustotal.com/gui/file/59bd0eed5eb4e76c76ef6b53c468e31dcec6b47257b060fb72a4ed0984863c97?nocache=1" target="_blank">Results Virustotal</a>
+
+- [go]([http://stackoverflow.com](https://www.virustotal.com/gui/file/59bd0eed5eb4e76c76ef6b53c468e31dcec6b47257b060fb72a4ed0984863c97?nocache=1)){:target="_blank" rel="noopener"}
 
 # Changelog v3.5
 
