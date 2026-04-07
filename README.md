@@ -6,7 +6,7 @@
 
 <img width="1947" height="1070" alt="Pro-Sim FOV Utility v3 5" src="https://github.com/user-attachments/assets/761256ef-8d6e-44e6-b12b-04f4864c2910" />
 
-## Online “Antivirus False Positives”:
+## Online “Antivirus False Positives”
 - Since the file was compiled using Win-PS2EXE, any alerts are due to the nature of the compiler wrapper.
 - Don’t worry the code has been reviewed by IT experts and has been found to be completely safe and clean.
 - Results: https://www.virustotal.com/gui/file/59bd0eed5eb4e76c76ef6b53c468e31dcec6b47257b060fb72a4ed0984863c97?nocache=1
