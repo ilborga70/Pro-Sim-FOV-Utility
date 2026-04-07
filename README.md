@@ -9,7 +9,7 @@
 ## Online “Antivirus False Positives”
 - Since the file was compiled using Win-PS2EXE, any alerts are due to the nature of the compiler wrapper.
 - Don’t worry the code has been reviewed by IT experts and has been found to be completely safe and clean.
-- Click [here](https://www.geeksforgeeks.org/(https://www.virustotal.com/gui/file/59bd0eed5eb4e76c76ef6b53c468e31dcec6b47257b060fb72a4ed0984863c97?nocache=1)){:target="_blank"} to visit GeeksForGeeks website.
+- Click [here](http://www.virustotal.com/gui/file/59bd0eed5eb4e76c76ef6b53c468e31dcec6b47257b060fb72a4ed0984863c97?nocache=1)){:target="_blank"} To Visit Virus Total.
 
 # Changelog v3.5
 
