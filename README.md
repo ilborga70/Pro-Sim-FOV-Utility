@@ -1,8 +1,8 @@
 <img width="1376" height="764" alt="ACRally Release 0 2 - Camera Customization (FOV)" src="https://github.com/user-attachments/assets/7ea1a4e9-d89a-4f02-9aa0-052ae4727aba" />
 
-[![PRO-SIM FOV UTILITY Fix the “False” Feeling of Speed](https://img.shields.io/badge/YouTube-Watch%20Fix-red?style=for-the-badge&logo=youtube)](https://youtube.com/shorts/4EMFu5LgZe8?si=GXFyHLvqX8ve4zpp)
+<img width="1149" height="794" alt="Pro-Sim FOV Utility v4 0 BETA_" src="https://github.com/user-attachments/assets/a67321f8-d4e5-4032-96d2-cea0003b2821" />
 
-<img width="1920" height="845" alt="Pro-Sim FOV Utility v4 0 BETA" src="https://github.com/user-attachments/assets/29abf74a-56d9-4859-b64e-346082f4ff7d" />
+[![PRO-SIM FOV UTILITY Fix the “False” Feeling of Speed](https://img.shields.io/badge/YouTube-Watch%20Fix-red?style=for-the-badge&logo=youtube)](https://youtube.com/shorts/4EMFu5LgZe8?si=GXFyHLvqX8ve4zpp)
 
 **New features:** Version 4.0 BETA
 
