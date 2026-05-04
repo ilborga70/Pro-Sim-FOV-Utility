@@ -1,10 +1,23 @@
 <img width="1376" height="764" alt="ACRally Release 0 2 - Camera Customization (FOV)" src="https://github.com/user-attachments/assets/7ea1a4e9-d89a-4f02-9aa0-052ae4727aba" />
 
-![Il FOV sul Monitor Curvo NON è lo Stesso Ecco il Motivo Reale](https://github.com/user-attachments/assets/e710fac0-7b1b-4b1c-8f32-15bf51aea685)
-
 [![PRO-SIM FOV UTILITY Fix the “False” Feeling of Speed](https://img.shields.io/badge/YouTube-Watch%20Fix-red?style=for-the-badge&logo=youtube)](https://youtube.com/shorts/4EMFu5LgZe8?si=GXFyHLvqX8ve4zpp)
 
 <img width="1920" height="845" alt="Pro-Sim FOV Utility v4 0 BETA" src="https://github.com/user-attachments/assets/29abf74a-56d9-4859-b64e-346082f4ff7d" />
+
+**New features:** Version 4.0 BETA
+
+- **Motion Blur Compensation**  
+  - Added a new checkbox “Motion Blur Compensation (-5%)” in the input panel.  
+  - When enabled, all calculated FOV values (AMS2, iRacing, rFactor, etc.) and the triple screen angle are reduced by 5%.  
+  - The compensation has been integrated into the `Calculate-FOV` function and applies to both the text display and the preview diagram.  
+  - The new parameter is saved and loaded with JSON profiles (backward compatibility with previous profiles is guaranteed).  
+  - The image report includes an indication of the compensation state.
+
+- **Help button “?”**  
+  - Added a small round button with the `?` symbol in the top-right corner of the main window.  
+  - Clicking it opens a dialog window with a complete guide, explaining:  
+  - How to use all controls (aspect ratio, size, distance, bezel, curvature, etc.).    
+  - The practical meaning of the results and options (including the new motion blur compensation).
 
 ## Online “Antivirus False Positives”
 - Since the file was compiled using Win-PS2EXE, any alerts are due to the nature of the compiler wrapper.
