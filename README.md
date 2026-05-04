@@ -4,7 +4,7 @@
 
 [![PRO-SIM FOV UTILITY Fix the “False” Feeling of Speed](https://img.shields.io/badge/YouTube-Watch%20Fix-red?style=for-the-badge&logo=youtube)](https://youtube.com/shorts/4EMFu5LgZe8?si=GXFyHLvqX8ve4zpp)
 
-<img width="1947" height="1070" alt="Pro-Sim FOV Utility v3 5" src="https://github.com/user-attachments/assets/761256ef-8d6e-44e6-b12b-04f4864c2910" />
+<img width="1920" height="845" alt="Pro-Sim FOV Utility v4 0 BETA" src="https://github.com/user-attachments/assets/29abf74a-56d9-4859-b64e-346082f4ff7d" />
 
 ## Online “Antivirus False Positives”
 - Since the file was compiled using Win-PS2EXE, any alerts are due to the nature of the compiler wrapper.
