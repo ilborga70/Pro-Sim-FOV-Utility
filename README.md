@@ -23,6 +23,7 @@
 - Since the file was compiled using Win-PS2EXE, any alerts are due to the nature of the compiler wrapper.
 - Don’t worry the code has been reviewed by IT experts and has been found to be completely safe and clean.
 - <a href="https://virusscan.jotti.org/en-GB/filescanjob/yrndx3c8k4" target="_blank"> Click here To Visit Virus Scan Jotti </a>
+<img width="1146" height="471" alt="Jotti" src="https://github.com/user-attachments/assets/03a0d170-e986-4878-9ad8-4c3265a29c73" />
 
 # Changelog v3.5
 
