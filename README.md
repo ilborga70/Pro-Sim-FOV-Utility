@@ -1,28 +1,59 @@
-<img width="1376" height="764" alt="ACRally Release 0 2 - Camera Customization (FOV)" src="https://github.com/user-attachments/assets/7ea1a4e9-d89a-4f02-9aa0-052ae4727aba" />
-
-<img width="1149" height="794" alt="Pro-Sim FOV Utility v4 0 BETA_" src="https://github.com/user-attachments/assets/a67321f8-d4e5-4032-96d2-cea0003b2821" />
+<img width="2560" height="1540" alt="Pro-Sim FOV Utility v5 0 0 0" src="https://github.com/user-attachments/assets/256c7627-2dfb-49ac-9440-a258d4ecd4eb" />
 
 [![PRO-SIM FOV UTILITY Fix the “False” Feeling of Speed](https://img.shields.io/badge/YouTube-Watch%20Fix-red?style=for-the-badge&logo=youtube)](https://youtube.com/shorts/4EMFu5LgZe8?si=GXFyHLvqX8ve4zpp)
 
-**New features:** Version 4.0 BETA
+# Pro-Sim FOV Utility v5.0 - Release Notes
 
-- **Motion Blur Compensation**  
-  - Added a new checkbox “Motion Blur Compensation (-5%)” in the input panel.  
-  - When enabled, all calculated FOV values (AMS2, iRacing, rFactor, etc.) and the triple screen angle are reduced by 5%.  
-  - The compensation has been integrated into the `Calculate-FOV` function and applies to both the text display and the preview diagram.  
-  - The new parameter is saved and loaded with JSON profiles (backward compatibility with previous profiles is guaranteed).  
-  - The image report includes an indication of the compensation state.
+## 🆕 New Features
 
-- **Help button “?”**  
-  - Added a small round button with the `?` symbol in the top-right corner of the main window.  
-  - Clicking it opens a dialog window with a complete guide, explaining:  
-  - How to use all controls (aspect ratio, size, distance, bezel, curvature, etc.).    
-  - The practical meaning of the results and options (including the new motion blur compensation).
+### Motion Blur Compensation (-5%)
+- Added a new checkbox in the input panel that reduces all calculated FOV values by 5%.
+- Compensates for motion blur perception in sim racing.
+- Affects all output values: AMS2, iRacing, DiRT, ACRally, Richard Burns Rally, rFactor, LMU, ACEVO, and the triple screen angle.
+- State is saved and loaded with JSON profiles (backward compatible with v3.5 profiles).
+- Included in the image report export.
 
-## Online “Antivirus False Positives”
-- Since the file was compiled using Win-PS2EXE, any alerts are due to the nature of the compiler wrapper.
-- Don’t worry the code has been reviewed by IT experts and has been found to be completely safe and clean.
-- <a href="https://virusscan.jotti.org/en-GB/filescanjob/yrndx3c8k4" target="_blank"> Click here To Visit Virus Scan Jotti </a>
+### Integrated Help & Monitor Calculator
+- Replaced the simple help window with a dual-panel interface accessible via the `?` button.
+- **Left panel**: Built-in Monitor Calculator Pro that converts screen diagonal from cm to inches and calculates exact width/height based on aspect ratio.
+- **Right panel**: Complete user guide with usage instructions and formulas.
+- Monitor calculator supports multiple aspect ratios: `4:3`, `16:9`, `16:10`, `21:9`, `32:9`.
+- Bilingual support: Italian and English with one-click language switching.
+- A visual reference diagram is included in the calculator.
+
+### Enhanced Image Report
+- The "Save Image Report" feature now includes the Motion Blur Compensation status.
+- Provides a clear indication of whether the -5% adjustment is active.
+
+---
+
+## 🔧 Improvements
+- Help window size increased to accommodate the new dual-panel layout (820×640).
+- Text in the help window no longer auto-selects on opening.
+- Improved IE11 compatibility for the embedded WebBrowser control.
+- All existing functionality is preserved without changes.
+
+---
+
+## 📦 Profile Management
+- Save/load functionality now includes the new Motion Blur Compensation parameter.
+- Existing v3.5 profiles load correctly with the new version.
+- The Motion Blur field defaults to unchecked if it's missing from older profiles.
+
+---
+
+## 🖥️ System Requirements
+- Windows 7/8/10/11
+- PowerShell 5.1 or later
+- .NET Framework 4.5 or later
+
+---
+
+## 🔒 Antivirus False Positives
+Since the file was compiled using **Win-PS2EXE**, any alerts are due to the nature of the compiler wrapper.
+Don't worry — the code has been reviewed by IT experts and has been found to be completely safe and clean.
+
+> 🔗 **Virus Scan Report:** [Jotti's Malware Scan](https://virusscan.jotti.org/en-US/filescanjob/f3qmrhay3b)
 <img width="1146" height="471" alt="Jotti" src="https://github.com/user-attachments/assets/03a0d170-e986-4878-9ad8-4c3265a29c73" />
 
 # Changelog v3.5
