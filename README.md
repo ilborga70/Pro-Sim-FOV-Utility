@@ -56,7 +56,7 @@
 Since the file was compiled using **Win-PS2EXE**, any alerts are due to the nature of the compiler wrapper.
 Don't worry — the code has been reviewed by IT experts and has been found to be completely safe and clean.
 
-> 🔗 **Virus Scan Report:** [Jotti's Malware Scan](https://virusscan.jotti.org/en-US/filescanjob/f3qmrhay3b)
+> 🔗 **Virus Scan Report:** [Jotti's Malware Scan](https://virusscan.jotti.org/en-US/filescanjob/3idpvw7038)
 <img width="1146" height="471" alt="Jotti" src="https://github.com/user-attachments/assets/03a0d170-e986-4878-9ad8-4c3265a29c73" />
 
 # Changelog v3.5
