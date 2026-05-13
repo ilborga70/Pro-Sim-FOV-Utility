@@ -1,10 +1,13 @@
-<img width="2560" height="1540" alt="Pro-Sim FOV Utility v5 0 0 0" src="https://github.com/user-attachments/assets/256c7627-2dfb-49ac-9440-a258d4ecd4eb" />
+<img width="2560" height="1540" alt="Pro-Sim FOV Utility v5 1 0 0" src="https://github.com/user-attachments/assets/e4bccf2b-26e2-44e0-af7e-ee356b7d272a" />
 
 [![PRO-SIM FOV UTILITY Fix the “False” Feeling of Speed](https://img.shields.io/badge/YouTube-Watch%20Fix-red?style=for-the-badge&logo=youtube)](https://youtube.com/shorts/4EMFu5LgZe8?si=GXFyHLvqX8ve4zpp)
 
-# Pro-Sim FOV Utility v5.0 - Release Notes
+## 🆕 What's New in v5.1
 
-## 🆕 New Features
+### Embedded Image in Help & Monitor Calculator
+- The diagonal calculator image is now embedded directly in the script using **Base64 encoding**.
+- No more external URL dependencies — the image loads instantly and works completely offline.
+- Improved reliability and startup speed for the help window.
 
 ### Motion Blur Compensation (-5%)
 - Added a new checkbox in the input panel that reduces all calculated FOV values by 5%.
