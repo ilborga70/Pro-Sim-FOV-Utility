@@ -56,18 +56,18 @@ Don't worry — the code has been reviewed by IT experts and has been found to b
 - The "Save Image Report" feature now includes the Motion Blur Compensation status.
 - Provides a clear indication of whether the -5% adjustment is active.
 
-## 🔧 Improvements
+### 🔧 Improvements
 - Help window size increased to accommodate the new dual-panel layout (820×640).
 - Text in the help window no longer auto-selects on opening.
 - Improved IE11 compatibility for the embedded WebBrowser control.
 - All existing functionality is preserved without changes.
 
-## 📦 Profile Management
+### 📦 Profile Management
 - Save/load functionality now includes the new Motion Blur Compensation parameter.
 - Existing v3.5 profiles load correctly with the new version.
 - The Motion Blur field defaults to unchecked if it's missing from older profiles.
 
-## 🛠️ Installation & Usage
+### 🛠️ Installation & Usage
 - This is a **Portable Application**—no installation is required.
 
 ### System Requirements
