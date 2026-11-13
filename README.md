@@ -119,35 +119,6 @@ By combining monitor geometry + biology of vision, it ensures that every millime
 Pro-Sim FOV Utility is a portable, high-precision tool designed to calculate the correct Field of View (FOV) and angles for Sim Racing setups.
 Whether you use a single monitor or a triple-screen configuration, this tool ensures accurate perspective for titles like *Assetto Corsa*, *iRacing*, *Automobilista 2*, and more.
 
-### New FOV Values Assetto Corsa Rally
-* **New ACR Dashboard View**
-* **New ACR Cockpit View**
-### `fix(calc)`: Assetto Corsa Rally Correction
-* **Horizontal FOV Adjustment:** Corrected the FOV calculation for *Assetto Corsa Rally* to use **Horizontal FOV (hFOV)** instead of Vertical FOV (vFOV). The value now aligns correctly with other hFOV-based titles like AMS2 and iRacing.
-
-### 🚀 Dynamic Preview Refinements
-* **Live Inch Conversion:** The distance measurement line now displays values in **inches** alongside centimeters for immediate utility.
-* **Cleaner Interface:** Angle and mode labels have been moved from the center to a dedicated column in the **top-left corner**. This prevents text overlap when the virtual pilot's head is close to the screens.
-* **Sync Fixes:** Resolved a bug where toggling inputs (Curved Screen, Bezel, etc.) caused the Triple Screen Angle to display outdated values. Calculations now run strictly before the drawing routine.
-
-### 💾 Profile Management
-Save time by storing different setup configurations (e.g., "Desk Rig" vs. "Main Sim Rig").
-* **Save Profile:** Serializes current configuration to a `.json` file.
-* **Load Profile:** Deserializes the file and automatically repopulates all sliders, checkboxes, and values. The preview diagram instantly updates to reflect the loaded profile.
-
-### 📊 Professional Image Reports
-Generate shareable, professional screenshots of your setup data.
-* **Custom Backgrounds:** Automatically overlays text results on a custom car cockpit background (`img\cockpit_template.png`).
-* **Clean Layout:** 1280x720 PNG output with a two-column design separating input parameters from calculated results.
-* **Styling:** Features a dark, semi-transparent overlay for readability and branding-consistent borders.
-
-### 👁️ Dynamic Visual Diagram
-A real-time visual representation of your rig that updates instantly as you adjust sliders.
-* **Triple Screen Logic:** Accurately visualizes side screens tilted at specific angles (defaulting to 30°) and joined to the center screen.
-* **Bezel Integration:** Visually represents bezel thickness between screens.
-* **Head Position:** An oval represents the user, moving dynamically based on distance settings.
-* **FOV Lines:** Yellow dashed lines indicate the actual Field of View angle.
-
 
 
 
