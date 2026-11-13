@@ -10,8 +10,6 @@
 
 <img width="1442" height="790" alt="Pro-Sim FOV Utility v5 1 0 0++" src="https://github.com/user-attachments/assets/00c99e40-54ab-4e20-b469-802d358aed81" />
 
----
-
 ## 📜 Intellectual Property & Attribution Notice
 
 **Copyright © 2026 ilborga70. All rights reserved.**
