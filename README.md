@@ -138,19 +138,19 @@ Calculates accurate FOV for a wide range of titles, including:
 ## 🏁 Why Pro-Sim FOV Utility Is Superior
 
 * **🔍 Beyond Geometry**  
-  Traditional calculators rely only on a distance ÷ width formula. Pro-Sim integrates human physiology and spatial perception, ensuring realism that pure math cannot achieve.
+  Traditional calculators rely only on a distance ÷ width formula. Pro-Sim-Fov-Utility integrates human physiology and spatial perception, ensuring realism that pure math cannot achieve.
 
 * **👀 120° Binocular Vision Reference**  
   Human vision spans 200°–220°, but binocular overlap (both eyes working together) is ~120°. This is the critical zone where the brain fuses depth and perspective.  
-  *Pro-Sim’s choice:* Align FOV with binocular vision → a 1:1 “Royal Flush” simulation.  
+  *Pro-Sim-FOV-Utility choice:* Align FOV with binocular vision → a 1:1 “Royal Flush” simulation.  
   *Result:* Eliminates fisheye distortion (too wide) and tunnel vision (too narrow).
 
 * **🌀 Peripheral Vision Correction**  
-  Central vision (~60°) handles detail, but peripheral vision drives speed perception. Pro-Sim ensures that edge-of-screen cues are processed naturally, so drivers feel velocity without staring at the speedometer. Triple-screen setups especially benefit from this correction.
+  Central vision (~60°) handles detail, but peripheral vision drives speed perception. Pro-Sim-FOV-Utility ensures that edge-of-screen cues are processed naturally, so drivers feel velocity without staring at the speedometer. Triple-screen setups especially benefit from this correction.
 
 * **🏎️ Precision for Richard Burns Rally (RBR)**  
-  RBR’s graphics engine uses a nonlinear FOV calculation, unlike most modern sims. Standard calculators misinterpret this, producing distorted results. Pro-Sim applies a custom mathematical transformation tailored to RBR’s code, guaranteeing perfect geometry on 16:9 and 21:9 monitors and restoring cockpit realism.
+  RBR’s graphics engine uses a nonlinear FOV calculation, unlike most modern sims. Standard calculators misinterpret this, producing distorted results. Pro-Sim-FOV-Utility applies a custom mathematical transformation tailored to RBR’s code, guaranteeing perfect geometry on 16:9 and 21:9 monitors and restoring cockpit realism.
 
 * **🎯 The Bottom Line**  
-  Pro-Sim FOV Utility is not just a calculator — it’s a vision simulator. By combining monitor geometry + biology of vision, it ensures that every millimeter of asphalt displayed matches the distance your brain expects in reality.  
-  Pro-Sim FOV Utility is a portable, high-precision tool designed to calculate the correct Field of View (FOV) and angles for Sim Racing setups. Whether you use a single monitor or a triple-screen configuration, this tool ensures accurate perspective for titles like *Assetto Corsa*, *iRacing*, *Automobilista 2*, and more.
+  Pro-Sim-FOV-Utility is not just a calculator — it’s a vision simulator. By combining monitor geometry + biology of vision, it ensures that every millimeter of asphalt displayed matches the distance your brain expects in reality.  
+  Pro-Sim-FOV-Utility is a portable, high-precision tool designed to calculate the correct Field of View (FOV) and angles for Sim Racing setups. Whether you use a single monitor or a triple-screen configuration, this tool ensures accurate perspective for titles like *Assetto Corsa*, *iRacing*, *Automobilista 2*, and more.
