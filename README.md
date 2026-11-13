@@ -13,6 +13,7 @@
 ## 📜 Intellectual Property & Attribution Notice
 
 > **Copyright © 2026 ilborga70. All rights reserved.**
+> 
 > **Pro-Sim FOV Utility** is an original utility developed and owned by **ilborga70**.
 
 * 🚫 **No Unauthorized Redistribution:** You may not re-upload, host, or redistribute the binary executable files (`.exe`), plugins (`.dll`, `.asi`), or codebase on any other website, forum, or repository without prior written consent.
