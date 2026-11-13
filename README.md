@@ -29,6 +29,13 @@
 
 👨‍💻 **Created by ilborga70** • [Pro-Sim Utilities Hub](https://github.com/ilborga70)
 
+## 🔒 Antivirus False Positives
+Since the file was compiled using **Win-PS2EXE**, any alerts are due to the nature of the compiler wrapper.
+Don't worry — the code has been reviewed by IT experts and has been found to be completely safe and clean.
+
+> 🔗 **Virus Scan Report:** [Jotti's Malware Scan](https://virusscan.jotti.org/en-US/filescanjob/3idpvw7038)
+<img width="1146" height="471" alt="Jotti" src="https://github.com/user-attachments/assets/03a0d170-e986-4878-9ad8-4c3265a29c73" />
+
 ## 🆕 What's New in v5.1
 
 ### Embedded Image in Help & Monitor Calculator
@@ -76,15 +83,6 @@
 - Windows 7/8/10/11
 - PowerShell 5.1 or later
 - .NET Framework 4.5 or later
-
----
-
-## 🔒 Antivirus False Positives
-Since the file was compiled using **Win-PS2EXE**, any alerts are due to the nature of the compiler wrapper.
-Don't worry — the code has been reviewed by IT experts and has been found to be completely safe and clean.
-
-> 🔗 **Virus Scan Report:** [Jotti's Malware Scan](https://virusscan.jotti.org/en-US/filescanjob/3idpvw7038)
-<img width="1146" height="471" alt="Jotti" src="https://github.com/user-attachments/assets/03a0d170-e986-4878-9ad8-4c3265a29c73" />
 
 # Changelog v3.5
 
