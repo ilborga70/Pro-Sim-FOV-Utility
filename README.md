@@ -11,10 +11,9 @@
 <img width="1442" height="790" alt="Pro-Sim FOV Utility v5 1 0 0++" src="https://github.com/user-attachments/assets/00c99e40-54ab-4e20-b469-802d358aed81" />
 
 ## 📜 Intellectual Property & Attribution Notice
+> **Pro-Sim FOV Utility** is an original utility developed and owned by **ilborga70**.
 
 > **Copyright © 2026 ilborga70. All rights reserved.**
-> 
-> **Pro-Sim FOV Utility** is an original utility developed and owned by **ilborga70**.
 
 * 🚫 **No Unauthorized Redistribution:** You may not re-upload, host, or redistribute the binary executable files (`.exe`), plugins (`.dll`, `.asi`), or codebase on any other website, forum, or repository without prior written consent.
 * 🏷️ **Attribution & Derivative Concept:** If you develop, publish, or share a similar utility, derivative project, or concept inspired by or built upon the methodologies introduced by *Pro-Sim FOV Utility*, **you must explicitly give clear credit and attribute the original concept and work to ilborga70** with a direct link back to this official repository.
