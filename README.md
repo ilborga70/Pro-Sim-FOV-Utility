@@ -25,9 +25,7 @@
 * 💼 **Non-Commercial Use Only:** This software is provided free for personal, non-commercial use. Commercial monetization or bundling is strictly prohibited.
 * 🛡️ **Disclaimer:** Provided "as is" without warranty of any kind.
 
----
-
-👨‍💻 **Created by ilborga70** • [Pro-Sim Utilities Hub](https://github.com/ilborga70)
+> 👨‍💻 **Created by ilborga70** • [Pro-Sim Utilities Hub](https://github.com/ilborga70)
 
 ## 🔒 Antivirus False Positives
 Since the file was compiled using **Win-PS2EXE**, any alerts are due to the nature of the compiler wrapper.
