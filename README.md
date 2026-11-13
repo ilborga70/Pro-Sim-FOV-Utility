@@ -62,8 +62,6 @@ Don't worry — the code has been reviewed by IT experts and has been found to b
 - The "Save Image Report" feature now includes the Motion Blur Compensation status.
 - Provides a clear indication of whether the -5% adjustment is active.
 
----
-
 ## 🔧 Improvements
 - Help window size increased to accommodate the new dual-panel layout (820×640).
 - Text in the help window no longer auto-selects on opening.
