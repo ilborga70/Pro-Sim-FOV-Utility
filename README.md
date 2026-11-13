@@ -68,18 +68,13 @@ Don't worry — the code has been reviewed by IT experts and has been found to b
 - Improved IE11 compatibility for the embedded WebBrowser control.
 - All existing functionality is preserved without changes.
 
----
-
 ## 📦 Profile Management
 - Save/load functionality now includes the new Motion Blur Compensation parameter.
 - Existing v3.5 profiles load correctly with the new version.
 - The Motion Blur field defaults to unchecked if it's missing from older profiles.
 
----
-
 ## 🛠️ Installation & Usage
-
-This is a **Portable Application**—no installation is required.
+- This is a **Portable Application**—no installation is required.
 
 ### System Requirements
 * **OS:** Windows 10 / 11 (64-bit)
@@ -97,9 +92,7 @@ This is a **Portable Application**—no installation is required.
 * **No Conflicts:** Runs safely alongside other gaming software.
 * **Easy Cleanup:** Simply delete the executable to remove the tool.
 
----
-
-## 🏎️ Supported Simulators
+### 🏎️ Supported Simulators
 Calculates accurate FOV for a wide range of titles, including:
 * Assetto Corsa & Assetto Corsa Competizione / EVO / Rally
 * iRacing
@@ -108,9 +101,7 @@ Calculates accurate FOV for a wide range of titles, including:
 * Le Mans Ultimate
 * DiRT Rally / Richard Burns Rally (RBR)
 
----
-
-## 🏁  Why Pro-Sim FOV Utility Is Superior
+### 🏁  Why Pro-Sim FOV Utility Is Superior
 * **🔍  Beyond Geometry**
 Traditional calculators rely only on a distance ÷ width formula.
 Pro-Sim integrates human physiology and spatial perception, ensuring realism that pure math cannot achieve.
@@ -144,10 +135,6 @@ Whether you use a single monitor or a triple-screen configuration, this tool ens
 * **Live Inch Conversion:** The distance measurement line now displays values in **inches** alongside centimeters for immediate utility.
 * **Cleaner Interface:** Angle and mode labels have been moved from the center to a dedicated column in the **top-left corner**. This prevents text overlap when the virtual pilot's head is close to the screens.
 * **Sync Fixes:** Resolved a bug where toggling inputs (Curved Screen, Bezel, etc.) caused the Triple Screen Angle to display outdated values. Calculations now run strictly before the drawing routine.
-
----
-
-## ✨ Key Features
 
 ### 💾 Profile Management
 Save time by storing different setup configurations (e.g., "Desk Rig" vs. "Main Sim Rig").
