@@ -21,7 +21,7 @@
 * 💼 **Non-Commercial Use Only:** This software is provided free for personal, non-commercial use. Commercial monetization or bundling is strictly prohibited.
 * 🛡️ **Disclaimer:** Provided "as is" without warranty of any kind.
 
-> 👨‍💻 **Created by ilborga70** • [Pro-Sim Utilities Hub](https://github.com/ilborga70)
+> 👨‍💻 **Created by ilborga70** • [Pro-Sim Utilities Hub](https://ilborga70.github.io/Pro-Sim-Utilities-Hub)
 
 ---
 
